@@ -105,11 +105,34 @@
   display: flex;
   margin-top: 40px;
 }
+/* footer */
+  
+.footer{
+  width: 1110px;
+  min-height: 50px;
+  background: #f0f0f0;
+  padding: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-
-
-
-
-
+.footer_contact{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footer_contact span{
+  font-size: 16px;
+  line-height: 27px;
+  color: #7f7f77;
+  
+}
+.footer_contact a{
+  font-size: 25px;
+  font-weight: 700;
+  color: #7f7f77;
+}
 
 
